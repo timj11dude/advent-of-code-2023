@@ -14,10 +14,6 @@ dependencies {
     implementation("io.ktor:ktor-client-core")
 }
 
-tasks.test {
-    useJUnitPlatform()
-}
-
 kotlin {
     jvmToolchain(21)
 }
